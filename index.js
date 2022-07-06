@@ -1,4 +1,4 @@
-export function finshList() {
+export function finishList() {
     const elem = document.querySelector('.list');
     const createElem = document.createElement('li');
     elem.prepend(createElem);
