@@ -11,6 +11,6 @@ export function finishList() {
     elem1.before(createElem2);
     createElem2.textContent = '4';
     const createElem3 = document.createElement('li');
-    elem1.before(createElem3);
+    elem1.after(createElem3);
     createElem3.textContent = '6';
 }
